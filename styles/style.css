@@ -4,6 +4,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color:#F3F1FF ;
+    padding: 0;
+    margin: 0;
 }
 main{
     display: flex;
@@ -140,6 +142,33 @@ media queries
     }
     
 }
+/* Navigation bar  */
+nav img{
+    width: 40px;
+}
+a{
+    text-decoration: none;
+    color: #F3F1FF;
+}
+    
+.logo{
+    display: flex;
+    margin-left: 200px;   
+}
+nav h1{
+    padding-left: 10px;
+    
+}
+nav{
+    display: flex;
+    color: #F3F1FF;
+    background-color: #562EFF;
+    justify-content: space-between;
+}
+.profile{
+    margin-right: 200px; 
+}
+
     
 
 
